@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#"
+     xml:base="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#hasemp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#hasemp">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#hasjob"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#hasjob -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#hasjob">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Young_Friend"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Young_Friend -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Young_Friend"/>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#boss -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#boss">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#customer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#customer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#feedbach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#feedbach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Young_Friend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#frustration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#frustration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Young_Friend"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#knew -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#knew">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#leader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#leader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#Job"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#provide -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#provide">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#relation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#relation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-29#relation"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

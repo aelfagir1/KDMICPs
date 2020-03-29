@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-22">
+    <Prefix name="" IRI="http://www.semanticweb.org/aaeq8/ontologies/2020/2/untitled-ontology-22#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Covid-19"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#US"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quebec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coronavirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#four_cases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#americahas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#confirmed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecuadoe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Americas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#spreadrythm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#positive_cases"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasspread"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#emerging"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outbreak"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dominican_Republic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dimond_prince"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ontario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#now"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spreading"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#StrainName"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BC"/>
+        <Class IRI="#Canada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#Americas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Covid-19"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dominican_Republic"/>
+        <Class IRI="#Americas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecuadoe"/>
+        <Class IRI="#Americas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <Class IRI="#Americas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ontario"/>
+        <Class IRI="#Canada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quebec"/>
+        <Class IRI="#Canada"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#US"/>
+        <Class IRI="#Americas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#confirmed"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dimond_prince"/>
+        <Class IRI="#Spreading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emerging"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#four_cases"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#now"/>
+        <Class IRI="#Spreading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outbreak"/>
+        <Class IRI="#Spreading"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#positive_cases"/>
+        <Class IRI="#Coronavirus"/>
+    </SubClassOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#americahas"/>
+        <ObjectProperty IRI="#hasspread"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasspread"/>
+        <Class IRI="#Coronavirus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#spreadrythm"/>
+        <Class IRI="#Coronavirus"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasspread"/>
+        <Class IRI="#Americas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#spreadrythm"/>
+        <Class IRI="#Spreading"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#StrainName"/>
+        <Class IRI="#Covid-19"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#StrainName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
